@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page/ page 1</title>
+    <link href="style_6.css" rel="stylesheet">
+  </head> 
+
+  <body> 
+
+    <!-- Navbar -->
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home Page/ page 1</a>
+      <a href="page_2.html">Page 2</a>
+      <a href="page_3.html">Page 3</a>
+      <a href="page_4.html">Page 4</a>
+      <a href="page_5.html">Page 5</a>
+      <a href="page_6.html">Page 6</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- Everything below navbar --> 
+  
+    <p>Overall I did have fun with this project but it wasn’t easy. This project was my first introduction to web development so I was pretty much going in blind. Considering my lack of experience, I think the website didn’t turn out too bad. I enjoyed working with and group and brain storming ideas for cool navigation bar and what not. HTML and CSS are quite powerful when combined so I was nice knowing not matter what idea we had, there is most definitely a way of doing it. I’m not exactly the most creative person in the world so I definitely had trouble trying to make my website look modern and appealing. I had visions of how I wanted my website to look but actually creating those visions were extremely difficult. I unfortunately had to cut a lot of my ideas just so I got just get the website to work properly. Trying to get the website to be 100% mobile friendly was a challenge as well but media queries came in to save to day. I think if I was going to do this project again I would definitely put more effort into the group discussion and brain storms. Even though I was attending these group meetings I wasn’t exactly talkative. As I mentioned this is my first entry to web dev so I didn’t have much input for the conversations. Overall I got the website working and made the whole thing mobile friendly so that’s a success in my book.</p>
+    
+    <img src="w3s_checker.PNG" alt="Image description" />
+    <p>me validating my code</p>
+    
+    <!-- Javascript -->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  background-color: rgb(40,40,40);
+  color: #FFFFFF;
+  margin:0;
+  font-family:'Lato', sans-serif;
+}
+/*html, body {margin: 0; height: 100%; overflow: hidden}*/
+/* Navbar and burgur icon */
+
+.home {
+  float: right;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #ffd422;
+  color: #000000;
+}
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Introduction video and messege */
+
+.video video {
+  width: 100%;
+  height: auto;
+}
+.video {
+  width: 50%;
+  height: 85vh;
+  float: left
+}
+.messege {
+  float: right;
+  width: 50%;
+  height: 85vh;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 320px) {
+  .messege {
+    width: 100%;
+    height: 20vh;
+  }
+  .video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 320px) {
+  .video video {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+}
+
+/* Downwards arrow button */
+
+@media screen and (min-width: 320px) {
+  .button {
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    background-color: rgb(40,40,40);
+    float: left;
+  }
+}
+@media screen and (max-width: 320px) {
+  .button {
+    width: 100%;
+    background-color: rgb(40,40,40);
+    float: left;
+    height: 34vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* "Meet the team" title */
+
+.team_title {
+  text-align: center;
+}
+
+/* Aligning the pictures  */
+
+.pictures img {
+  width: 93%;
+  max-width: 350px;
+  margin: 10px;
+}
+.pictures {
+  text-align: center
+}
+
+/* Team information */
+
+.team_info {
+  text-align: center
+}
+.team_info {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+}
+.team_info {
+  -webkit-column-width: 150px;
+  -moz-column-width: 150px;
+  column-width: 150px;
+}
+
+

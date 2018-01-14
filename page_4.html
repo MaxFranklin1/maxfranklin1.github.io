@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page/ page 1</title>
+    <link href="style_4.css" rel="stylesheet">
+  </head> 
+
+  <body> 
+
+    <!-- Navbar -->
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home Page/ page 1</a>
+      <a href="page_2.html">Page 2</a>
+      <a href="page_3.html">Page 3</a>
+      <a href="page_4.html">Page 4</a>
+      <a href="page_5.html">Page 5</a>
+      <a href="page_6.html">Page 6</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- Everything below navbar --> 
+        
+    <br><h1 class="title">The best ways to learn HTML and CSS</h1><br><br><br>
+    
+    <h3 class="intro">These are some of the best websites and services to learn how to use HTML and CSS to devolop your own website.</h3><br><br><br>
+
+    <img class="stack" src="images%20for%20page%204/stackoverflow_logo.png" alt="Image description" />
+    
+    <p class="stack_text">Stackoverflow is on the biggest programming communities on the internet right now. The website's purpose is to help programmers learn, build, and share their knowledge with other members in the community. User have been going to this website to seek advice on programming as well as to help others who are struggling. This is the website to go to when you can’t get your code to work and google won’t give you an answer. Stackoverflow’s community has been known to be exceptionally helpful to new comers and even the programing veterans.</p>
+    
+    <img class="w3schools" src="images%20for%20page%204/W3Schools_logo.png" alt="Image description" />
+    
+    <p class="w3schools_text">W3schools is where you go to when you’re first learning how to program. The website has a vast library guides detailing how to perform tasks in many languages. W3schools gives easy to read and understand examples which really propelled them into becoming the hotspot website for newbies. Ask any programmer today and they’ll tell you how much of a life saver W3schools is when starting out.</p>
+    
+    <img class="codecademy" src="images%20for%20page%204/Codecademy_logo.png" alt="Image description" />
+    
+    <p class="codecademy_text">Codecademy is another website designed to teach users the basics as well as advanced programming languages.</p>   
+    
+    <img class="sololearn" src="images%20for%20page%204/sololearn_logo.jpg" alt="Image description" />
+    
+    <p class="sololearn_text">Sololearn is a website designed from the ground up to teach users programming first hand. The website has lessons and activities for many different programming languages as well as activities for users to take part in. Sololearn also has a “code playground” where users can experiment with their own code or mess around with others code.  </p>
+    
+    <img class="youtube" src="images%20for%20page%204/youtube_logo.jpg" alt="Image description" />
+    
+    <p class="youtube_text">YouTube is an absolutely massive website filled with programming. There’s a video for just about everything as well as entire playlists devoted to teaching programming languages. Reading how to code is great and all but sometimes it’s easier to be taught rather than learn. There are thousands of programming guides on YouTube covering just about every scenario.</p>
+      
+    <!-- Javascript -->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page/ page 1</title>
+    <link href="style_3.css" rel="stylesheet">
+  </head> 
+
+  <body> 
+
+    <!-- Navbar -->
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home Page/ page 1</a>
+      <a href="page_2.html">Page 2</a>
+      <a href="page_3.html">Page 3</a>
+      <a href="page_4.html">Page 4</a>
+      <a href="page_5.html">Page 5</a>
+      <a href="page_6.html">Page 6</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- Everything below navbar --> 
+
+    <h1 class="title">Comparing Jobs</h1>   
+    <h3 class="title">Comparing a web development job to a games development job</h3>    
+    
+    <p class="left">A web developers job is design web pages for the internet, as well as making it look appealing enough to attract and retain users. A game developers job is to work with a massive team to slowly produce a product over 3 years. Web developers can also work in a team but nowhere near the same size. A game’s dev team is an entire company full of hundreds of employees all with difference skills and talents. The development schedule for games is much longer than we development. A game takes years to create where as a website might take around a month depending on the complexity of the website.</p>    
+    <p class="middle">Both jobs demand attention to the product even after the products release. With a website a web dev must make sure everything is working as intended when it gets released to the masses. Unforeseen problems can arise from rapid increase of traffic so web developers need to be ready if something goes wrong. Same goes for game developers somewhat. A game still needs attention after release to fix unforeseen bugs and glitches. Game developers also start working on other projects almost immediately whereas for web developers the turnover rate between projects is a bit longer. </p>  
+    <p class="right">Once a web developer and its team gets a new project a large amount of time needs to be spent on pre-production and planning. Game developers also do this but it’s mostly done by other people and production is normally ready to begin as soon as people are finished with the last project. </p>  
+    
+    <!-- Javascript -->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }  
+    </script>
+  </body>
+</html>
