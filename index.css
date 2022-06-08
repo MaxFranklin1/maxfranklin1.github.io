@@ -1,0 +1,110 @@
+* {
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box; /* makes box dimentsions remain the same regardless of border, width, and padding */
+}
+
+html { 
+    font-family: century-gothic, sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+  }
+
+
+div.container {
+    width: 70%; /* 75% of screen space */
+    margin: auto; /* center the container horizontally */
+    border: none; /* no border */
+
+}
+
+/* Header ------------------------------------------------------------------- */
+
+header {
+    padding: 25px;
+    background-color: gray;
+    color: white;
+    text-align: left;
+    /* clear: left; */
+    /* font-size: 15px; */
+}
+
+header p.name {
+    font-size: 50px;
+    margin: 0;
+}
+
+header p.title {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+header p.aboutMe {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* columnRight ------------------------------------------------------------------- */
+
+div.columnRight {
+    float: right;
+    width: 70%; 
+    padding: none;
+    border: solid rgb(1, 190, 26);
+    text-align: left;
+}
+  
+/* columnLeft ------------------------------------------------------------------- */
+
+.columnLeft {
+    padding: none;
+    border: solid rgb(153, 0, 255);
+    width: 30%;
+    /*  min-width: 275px; */
+}
+
+/* Column Rules -------------------------------------------------------------------*/
+
+.sectionName {
+    margin: 0 0 0 0;
+    font-weight: bold;
+    /* border-bottom: solid rgb(156, 36, 255); */
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+.sectionHeader {
+    font-weight: bold;
+    font-size: 90%;
+    margin-bottom: 0;
+}
+
+.sectionInfo {
+    margin: 0;
+    font-size: 90%;
+}
+
+.sectionBulletPoints {
+    /* list-style-type: circle; */
+    /* padding: 0; */
+    padding-left: 15px;
+}
+
+/* Sticky Test ------------------------------------------------------------------- */
+
+.sticky {
+    border: solid 3px red;
+    position: sticky;
+/*     bottom: 40%; */
+}
+
+/* Footer ------------------------------------------------------------------- */
+
+footer {
+    padding: 25px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    clear: right;
+}
